@@ -88,6 +88,6 @@ class LookupForm extends Template
      */
     public function getPostUrl()
     {
-        return $this->getUrl('customer/rewards/redirect');
+        return $this->getUrl('customer/guesttocustomer/lookupformPost');
     }
 }
